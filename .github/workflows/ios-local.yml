@@ -16,7 +16,7 @@ jobs:
     # 合并文件片段
     - name: Merge IPA parts
       run: |
-        cat ios/oiyo.ipa.part* > ios/pufflz.ipa
+        cat ios/pufflz.ipa.part* > ios/pufflz.ipa
 
     # 验证文件完整性
     - name: Verify file integrity
